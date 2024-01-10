@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            height: 100vh;
+            margin: 0;
+            place-items: center;
+            width: 100%;
+        }
+        .phone {
+            position: relative;
+            border: 8px solid black;
+            border-radius: 40px;
+            height: 600px;
+            width: 300px;
+            background-color: #CCEFFF;
+            box-shadow: 0 19px 38px rgba(0,0,0,0.30),
+                  0 15px 38px rgba(0,0,0,0.22);
+        }
+        .layers{
+            position: absolute;
+        }
+        
+        #layer-1{
+            z-index: 1;
+            height: 450px;
+            width: 80px;
+            background: red;
+            bottom: 0;
+            right: 60px;
+        }
+        #layer-2{
+            z-index: 2;
+            height: 450px;
+            width: 80px;
+            background: red;
+            bottom: 0;
+            left: 60px;
+        }
+        #layer-3{
+            z-index: 3;
+            height: 400px;
+            width: 230px;
+            background: blue;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+        #layer-4{
+            z-index: 4;
+            height: 350px;
+            width: 80px;
+            background: red;
+            bottom: 0;
+            left: 15px;
+        }
+        #layer-5{
+            z-index: 5;
+            bottom: 0;
+            height: 300px;
+            width: 180px;
+            background: cyan;
+            left: 0px;
+        }
+        #layer-6{
+            z-index: 6;
+            height: 250px;
+            width: 80px;
+            background: red;
+            bottom: 0;
+            right: 15px;
+        }
+        #layer-7{
+            z-index: 7;
+            bottom: 0;
+            height: 200px;
+            width: 180px;
+            background: purple;
+            right: 0px;
+        }
+        #layer-8{
+            z-index: 8;
+            height: 150px;
+            width: 10px;
+            background: greenyellow;
+            border-radius: 48px;
+            bottom: 0;
+            right: 15px;
+        }
+        #layer-9{
+            z-index: 9;
+            height: 150px;
+            width: 10px;
+            background: greenyellow;
+            border-radius: 48px;
+            bottom: 0;
+            left: 15px;
+        }
+        #layer-10{
+            z-index: 10;
+            height: 110px;
+            width: 10px;
+            background: greenyellow;
+            border-radius: 48px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+        .helmet--outer{
+            background: black;
+            height: 80px;
+            width: 100%;
+            border-radius: 100%;
+        }
+        .helmet{
+            background: white;
+            border: 3px solid black;
+            height: 50px;
+            width: auto;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="phone">
+        <div class="layers" id="layer-1">
+            
+            <div class="helmet"></div>
+            <div class="middle-helmet"></div>
+
+            <div class="head">
+                <div class="head__eye left-head--eye"></div>
+                <div class="head__eye right-head--eye"></div>
+            </div>
+
+
+        </div>
+        <div class="layers" id="layer-2"></div>
+        <div class="layers" id="layer-3"></div>
+        <div class="layers" id="layer-4"></div>
+        <div class="layers" id="layer-5"></div>
+        <div class="layers" id="layer-6"></div>
+        <div class="layers" id="layer-7"></div>
+        <div class="layers" id="layer-8"></div>
+        <div class="layers" id="layer-9"></div>
+        <div class="layers" id="layer-10"></div>
+    </div>
+</body>
+</html>
