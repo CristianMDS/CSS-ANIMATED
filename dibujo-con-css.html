@@ -86,67 +86,178 @@
         }
         #layer-8{
             z-index: 8;
-            height: 150px;
-            width: 10px;
-            background: greenyellow;
-            border-radius: 48px;
-            bottom: 0;
-            right: 15px;
         }
         #layer-9{
             z-index: 9;
-            height: 150px;
-            width: 10px;
-            background: greenyellow;
-            border-radius: 48px;
-            bottom: 0;
-            left: 15px;
         }
         #layer-10{
             z-index: 10;
             height: 110px;
-            width: 10px;
-            background: greenyellow;
+            width: 80px;
+            background: rgb(175, 173, 173);
             border-radius: 48px;
             bottom: 0;
             left: 0;
             right: 0;
             margin: 0 auto;
         }
-        .helmet--outer{
-            background: black;
-            height: 80px;
-            width: 100%;
-            border-radius: 100%;
+        .ear-left{
+            position: absolute;
+            height: 100px;
+            width: 15px;
+            background: #3ca9f1;
+            border-radius: 95%;
+            border: 1px solid black;
+            left: 10px;
         }
-        .helmet{
-            background: white;
-            border: 3px solid black;
+        .ear-right{
+            position: absolute;
+            height: 100px;
+            width: 15px;
+            background: #3ca9f1;
+            border: 1px solid black;
+            border-radius: 95%;
+            right: 10px;
+        }
+        .head{
+            position: absolute;
             height: 50px;
-            width: auto;
+            width: 65px;
+            background: #3ca9f1;
+            border: 1px solid black;
+            border-radius: 95%;
+            right: 0;
+            left: 0;
+            top: 24px;
+            margin: 0 auto;
+        }
+        .eye-left{
+            position: absolute;
+            height: 10px;
+            width: 10px;
+            background-color: beige;
+            border: 1px solid black;
             border-radius: 100%;
+            left: 12px;
+            top: 10px;
+        }
+        .eye-left--point{
+            position: absolute;
+            height: 1px;
+            width: 1px;
+            background-color: black;
+            border: 1px solid black;
+            border-radius: 100%;
+            left: 4px;
+            top: 4px;
+        }
+        .eye-right{
+            position: absolute;
+            height: 10px;
+            width: 10px;
+            background-color: beige;
+            border: 1px solid black;
+            border-radius: 100%;
+            right: 12px;
+            top: 10px;
+        }
+        .eye-right--point{
+            position: absolute;
+            height: 1px;
+            width: 1px;
+            background-color: black;
+            border: 1px solid black;
+            border-radius: 100%;
+            right: 4px;
+            top: 4px;
+        }
+
+        .nose{
+            position: absolute;
+            height: 4px;
+            width: 4px;
+            background-color: black;
+            border-radius: 100%;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="phone">
         <div class="layers" id="layer-1">
-            
-            <div class="helmet"></div>
-            <div class="middle-helmet"></div>
+            <div class="ear-left"></div>
+            <div class="ear-right"></div>
 
             <div class="head">
-                <div class="head__eye left-head--eye"></div>
-                <div class="head__eye right-head--eye"></div>
+                <div class="eye-left">
+                    <div class="eye-left--point"></div>
+                </div>
+
+                <div class="eye-right">
+                    <div class="eye-right--point"></div>
+                </div>
+
+                <div class="nose"></div>
+
             </div>
-
-
         </div>
-        <div class="layers" id="layer-2"></div>
+        <div class="layers" id="layer-2">
+            <div class="ear-left"></div>
+            <div class="ear-right"></div>
+
+            <div class="head">
+                <div class="eye-left">
+                    <div class="eye-left--point"></div>
+                </div>
+
+                <div class="eye-right">
+                    <div class="eye-right--point"></div>
+                </div>
+
+                <div class="nose"></div>
+
+            </div>
+        </div>
+        
         <div class="layers" id="layer-3"></div>
-        <div class="layers" id="layer-4"></div>
+        <div class="layers" id="layer-4">
+            <div class="ear-left"></div>
+            <div class="ear-right"></div>
+
+            <div class="head">
+                <div class="eye-left">
+                    <div class="eye-left--point"></div>
+                </div>
+
+                <div class="eye-right">
+                    <div class="eye-right--point"></div>
+                </div>
+
+                <div class="nose"></div>
+
+            </div>
+        </div>
         <div class="layers" id="layer-5"></div>
-        <div class="layers" id="layer-6"></div>
+        <div class="layers" id="layer-6">
+            <div class="ear-left"></div>
+            <div class="ear-right"></div>
+
+            <div class="head">
+                <div class="eye-left">
+                    <div class="eye-left--point"></div>
+                </div>
+
+                <div class="eye-right">
+                    <div class="eye-right--point"></div>
+                </div>
+
+                <div class="nose"></div>
+
+            </div>
+        </div>
         <div class="layers" id="layer-7"></div>
         <div class="layers" id="layer-8"></div>
         <div class="layers" id="layer-9"></div>
