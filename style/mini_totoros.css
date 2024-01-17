@@ -86,3 +86,140 @@
     margin: 0 auto;
     top: 20px;
 }
+
+.ear-left--top{
+    position: absolute;
+    height: 100px;
+    width: 15px;
+    background: gray;
+    border: 1px solid black;
+    border-radius: 95%;
+    left: 10px;
+}
+
+.ear-right--top{
+    position: absolute;
+    height: 100px;
+    width: 15px;
+    background: gray;
+    border: 1px solid black;
+    border-radius: 95%;
+    right: 10px;
+}
+
+.totoro-head{
+    position: absolute;
+    background: gray;
+    border: 1px solid black;
+    border-radius: 100%;
+    top: 15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 90%;
+    height: 50px;
+}
+
+.eye-left--totoro{
+    position: absolute;
+    height: 13px;
+    width: 10px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 100%;
+    left: 15px;
+    top: 10px;
+}
+
+.eye-left-totoro--point{
+    position: absolute;
+    height: 3px;
+    width: 1px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 100%;
+    left: 4px;
+    top: 4px;
+}
+
+.eye-right--totoro{
+    position: absolute;
+    height: 13px;
+    width: 10px;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 100%;
+    right: 15px;
+    top: 10px;
+}
+
+.eye-right-totoro--point{
+    position: absolute;
+    height: 3px;
+    width: 1px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 100%;
+    right: 4px;
+    top: 4px;
+}
+
+.nose-totoro{
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    background: gray;
+    border-top: 1.5px solid black;
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.nose-totoro--nose{
+    position: absolute;
+    width: 6px;
+    height: 2.5px;
+    background: black;
+    top: 0.8px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.mouth-totoro{
+    position: absolute;
+    width: 65%;
+    height: 8px;
+    background: rgb(228, 228, 199);
+    top: 75%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.stomage--outer{
+    position: absolute;
+    background: gray;
+    border: 1px solid black;
+    border-radius: 100%;
+    top: 40px;
+    width: 100%;
+    height: 100px;
+}
+
+.stomage--inner{
+    position: absolute;
+    background: beige;
+    border: 1px solid black;
+    border-radius: 100%;
+    top: 4px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+}

@@ -88,8 +88,7 @@ body{
     z-index: 10;
     height: 110px;
     width: 80px;
-    background: rgb(175, 173, 173);
-    border-radius: 48px;
+    background: rgb(255, 255, 255);
     bottom: 0;
     left: 0;
     right: 0;
